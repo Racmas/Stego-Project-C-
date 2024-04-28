@@ -24,6 +24,10 @@ std::vector<int> string2Binary(std::string& inputString){
     return binaryList;
 }
 
+void saveToImage(cv::Mat& image){ 
+
+}
+
 int main (){
     std::string imageLocation = "external/images/Drivers Licence.png";
 
@@ -46,5 +50,5 @@ int main (){
     int red = pixel[2];
 
     std::cout << blue << " " << green << " " << red << std::endl;
-
+     
 }
